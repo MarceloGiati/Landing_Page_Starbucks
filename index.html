@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Starbucks L.P. Webi Site</title>
+  <title>Starbucks Landing P. Webi Site</title>
 
   <link rel="shortcut icon" href="./src/img/engenharia-de-software.png">
 
@@ -14,6 +14,8 @@
 
 <body>
   <section>
+    <div class="circle"></div>
+
     <header>
       <a href="#"><img src="./src/img/logo.png" class="logo" alt="logo"></a>
 
@@ -38,10 +40,19 @@
     </div>
 
     <ul class="thumb">
-      <li><img src="./src/img/thumb1.png" alt="thumb1"></li>
-      <li><img src="./src/img/thumb2.png" alt="thumb2"></li>
-      <li><img src="./src/img/thumb3.png" alt="thumb3"></li>
+      <li><img src="./src/img/thumb1.png" onclick="imgSlider('./src/img/img1.png')"></li>
+      <li><img src="./src/img/thumb2.png" onclick="imgSlider('./src/img/img2.png')"></li>
+      <li><img src="./src/img/thumb3.png" onclick="imgSlider('./src/img/img3.png')"></li>
+    </ul>
+
+    <ul class="sci">
+      <li><a href="#"><img src="./src/img/linkedin.png" alt="linkedin"></a></li>
+      <li><a href="#"><img src="./src/img/github.png" alt="github"></a></li>
+      <li><a href="#"><img src="./src/img/whatsapp.png" alt="whatsapp"></a></li>
+      <li><a href="#"><img src="./src/img/email.png" alt="e-mail"></a></li>
     </ul>
   </section>  
+
+  <script src="./src/js/anime.js"  type="text/Javascript"></script>
 </body>
 </html>
