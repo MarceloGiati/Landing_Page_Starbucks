@@ -51,9 +51,9 @@ header ul li a {
   text-decoration: none;
 }
 
-header ul li a:hover {
+/* header ul li a:hover {
   color: #017143;
-}
+} */
 
 .content {
   position: relative;
