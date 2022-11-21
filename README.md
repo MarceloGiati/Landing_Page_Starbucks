@@ -11,4 +11,4 @@ Furncionalidades:<br>
 <br>
 "Todas as funcionalidades da Landing Page estão lincadas com a página original do Starbucks USA."<br>
   Link para acessar a Landing Page criada:<br>
-  - 
+  - https://marcelogiati.github.io/Landing_Page_Starbucks/
