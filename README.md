@@ -2,7 +2,7 @@
 
 Desenvolvimento da Landing Page para para pratica e estudos em aplicações Front End.<br>
 Furncionalidades:<br>
-- Logo Tipo: Clicando leva a página qu conta a hstória do logotipo.<br>
+- Logo Tipo: Clicando leva a página qu conta a história do logotipo.<br>
 - Home: Leva a página inicial e principal do Starbucks.<br>
 - Menu: Leva ao menu original do Starbucks.<br>
 - What's New: Leva á página original com as novidaes do dia / semana.<br>
