@@ -32,11 +32,13 @@ header {
 header .logo {
   position: relative;
   max-width: 80px;
+  z-index: 1;
 }
 
 header ul {
   position: relative;
   display: flex;
+  z-index: 1;
 }
 
 header ul li {
@@ -51,9 +53,11 @@ header ul li a {
   text-decoration: none;
 }
 
-/* header ul li a:hover {
+ header ul li a:hover { 
   color: #017143;
-} */
+  font-size: 18px;
+  font-weight: 800;
+} 
 
 .content {
   position: relative;
@@ -79,6 +83,19 @@ header ul li a {
   color: #017143;
   font-size: 1.2em;
   font-weight: 900;
+}
+
+.content .textBox h3 {
+  color: #333;
+  font-size: 2em;
+  line-height: 1.4em;
+  font-weight: 500;
+}
+
+.content .textBox h3 span {
+  color: #017143;
+  font-size: 1.2em;
+  font-weight: 600;
 }
 
 .content .textBox p {
