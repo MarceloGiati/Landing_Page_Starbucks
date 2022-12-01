@@ -9,7 +9,7 @@
   <link rel="shortcut icon" href="./src/img/engenharia-de-software.png">
 
   <link rel="stylesheet" href="./src/css/style.css">
-  <!-- <link rel="stylesheet" href="./src/css/responsive.css"> -->
+  <link rel="stylesheet" href="./src/css/responsive.css">
 </head>
 
 <body>
@@ -21,7 +21,9 @@
         <img src="./src/img/logo.png" class="logo" alt="logo">
       </a>
 
-      <ul>
+      <div class="toggle" onclick="toggleMenu();"></div> 
+
+      <ul class="navigation">
         <li><a href="https://www.starbucks.com/">Home</a></li>
         <li><a href="https://www.starbucks.com/menu">Menu</a></li>
         <li><a href="https://acupeveryday.com/starbucks-spring-lineup/">What's New</a></li>
@@ -32,7 +34,7 @@
     <div class="content">
       <div class="textBox">
         <h2>it's not just  coffee<br>It's <span>Starbuks</span></h2> 
-        <h3>by <span><i>Marcelo Giati</i></span></h3>       
+        <h3>by <span>Marcelo Giati</span></h3>       
         <p>Every day we hope to do two things: share great coffee with our friends and help make the world a little bit better. It was like that when the first Starbucks opened in 1971 and it still is today.</p>
         <a href="https://pt.wikipedia.org/wiki/Starbucks">Learn More</a>
       </div>
@@ -44,15 +46,15 @@
 
     <ul class="thumb">
       <li>
-        <img src="./src/img/thumb1.png" onclick="imgSlider('./src/img/img1.png');changeCircleColor('#017143')">
+        <img src="./src/img/thumb1.png" alt="cupGreen" onclick="imgSlider('./src/img/img1.png');changeCircleColor('#017143')">
       </li>
 
       <li>
-        <img src="./src/img/thumb2.png" onclick="imgSlider('./src/img/img2.png');changeCircleColor('#eb7495')">
+        <img src="./src/img/thumb2.png" alt="cupPink" onclick="imgSlider('./src/img/img2.png');changeCircleColor('#eb7495')">
       </li>
 
       <li>
-        <img src="./src/img/thumb3.png" onclick="imgSlider('./src/img/img3.png');changeCircleColor('#d752b1')">
+        <img src="./src/img/thumb3.png" alt="cupPurple" onclick="imgSlider('./src/img/img3.png');changeCircleColor('#d752b1')">
       </li>
     </ul>
 
@@ -84,5 +86,6 @@
   </section>  
 
   <script type="text/Javascript" src="./src/js/anime.js"></script>
+  <script src="./src/js/toggle.js"></script>
 </body>
 </html>
