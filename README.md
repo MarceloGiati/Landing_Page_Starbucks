@@ -15,6 +15,7 @@ Furncionalidades:<br>
   - https://marcelogiati.github.io/Landing_Page_Starbucks/  
  <br>
  <br>
-![image](https://user-images.githubusercontent.com/90580011/205171469-0f85979b-b5b8-40f7-958e-be0d74060717.png)<br>
+![image](https://user-images.githubusercontent.com/90580011/205509740-13f42178-b2ad-4b3e-8ea4-5d9c827118c5.png)<br>
+<br>
 ![image](https://user-images.githubusercontent.com/90580011/205171365-64b98b22-6354-463b-acc8-285d19bab5d6.png)
 
